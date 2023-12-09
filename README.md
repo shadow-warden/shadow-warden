@@ -1,5 +1,8 @@
 
 ### greetings
+<div style ="tc display:flex;" align="center">
+  <a href="https://www.youtube.com/watch?v=fC7oUOUEEi4"><img src="assets/PFP_transparent.png" height="300"></a>
+</div>
 [![my GitHub stats](https://github-readme-stats.vercel.app/api?username=shadow-warden&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffffff&hide_border=true)]
 <!--
 //5d2f9d10
