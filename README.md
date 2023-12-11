@@ -1,11 +1,14 @@
 
-### greetings
 <div style ="tc display:flex;" align="center">
+
+  ### greetings
   <a href="https://www.youtube.com/watch?v=fC7oUOUEEi4"><img src="assets/PFP_transparent.png" height="300"></a>
 
-[![my GitHub stats](https://github-readme-stats.vercel.app/api?username=shadow-warden&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffffff&hide_border=true)]
+![my GitHub stats](https://github-readme-stats.vercel.app/api?username=shadow-warden&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffffff&hide_border=true)
 </div>
 <!--
+in case you're reading this you shoud read tamberlane https://www.tamberlanecomic.com/
+i am in no way associated with tamberlane i just think its cool
 //5d2f9d10
 **shadow-warden/shadow-warden** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
