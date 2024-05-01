@@ -2,7 +2,7 @@
 <div style ="tc display:flex;" align="center">
 
   ### greetings
-  <a href="javascript:playSound('dial_up');><img src="assets/PFP_transparent.png" height="300"></a>
+  <a href="javascript:playSound('dial_up');"><img src="assets/PFP_transparent.png" height="300"></a>
 
 ![my GitHub stats](https://github-readme-stats.vercel.app/api?username=shadow-warden&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffffff&hide_border=true)
 <br>
