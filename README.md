@@ -2,12 +2,13 @@
 <div style ="tc display:flex;" align="center">
 
   ### greetings
-  <a href="https://www.youtube.com/watch?v=fC7oUOUEEi4"><img src="assets/PFP_transparent.png" height="300"></a>
+  <a href="javascript:playSound('dial_up');><img src="assets/PFP_transparent.png" height="300"></a>
 
 ![my GitHub stats](https://github-readme-stats.vercel.app/api?username=shadow-warden&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffffff&hide_border=true)
 <br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shadow-warden&size_weight=0.75&count_weight=0.25&layout=compact&lang_count=20&card_width=400&show_icons=true&bg_color=000000ff&title_color=ffffffff&text_color=ffffff&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 </div>
+    <audio id="dial_up" src="assets/dial-up.wav" preload="auto"></audio>
 <!--
 in case you're reading this you shoud read tamberlane https://www.tamberlanecomic.com/
 i am in no way associated with tamberlane i just think its cool
