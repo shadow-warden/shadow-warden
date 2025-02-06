@@ -40,9 +40,6 @@ img{
 img:hover{
     transform: scale(1.5,1.5);
 }
-#text{
-    /* color: aquamarine; */
-}
 #profile-img{
     img{
         background-color: #d5d5d5;
@@ -90,4 +87,24 @@ nav{
     min-height: 100px;
     width: 50%;
     margin: auto;
+}
+.redirect_page{
+    background-color: #d5d5d5;
+    color: #202020;
+    width: 50%;
+    margin: 150px auto;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+    padding: 30px 30px 50px 30px;
+    border: 0.5em #202020 ridge;
+    a{
+        color: goldenrod;
+    }
+}
+a{
+    transition: 0.5s;
+}
+a:hover{
+    letter-spacing: 0.1em;
 }
