@@ -81,3 +81,13 @@ nav{
         background-color: goldenrod;
     }
 }
+.showcase{
+    text-align: center;
+    font-size: larger;
+    padding: 5%;
+    margin-top: 50em;
+    background-color: #202020;
+    min-height: 100px;
+    width: 50%;
+    margin: auto;
+}
