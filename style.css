@@ -6,6 +6,7 @@
     }
 *{
     color:#d5d5d5;
+    margin: 0%;
 }
 body{
     font-family: "PMD_font";
@@ -19,7 +20,6 @@ body{
     width: 50%;
     margin: auto;
     display: flex;
-    border-image: url(images/Grass-top-overworld.png) repeat;
     border-width: 20%;
     img{
         background-color: #d5d5d5;
