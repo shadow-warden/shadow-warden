@@ -28,26 +28,11 @@ body{
         margin-top: auto;
         margin-bottom: auto;
         border-radius: 50%;
-        border-style: ridge;
-        border-color: green;
+        /* border-style: ridge; */
+        /* border-color: green; */
     }
     /* grid-template-columns: "text","profile-img","text"; */
     flex-direction: row;
-}
-img{
-    transition-duration: 100ms;
-}
-img:hover{
-    transform: scale(1.5,1.5);
-}
-#profile-img{
-    img{
-        background-color: #d5d5d5;
-        width: auto;
-        border-radius: 50%;
-        border-style: ridge;
-        border-color: green;
-    }
 }
 .words {
     font-size: 400%;
@@ -95,7 +80,7 @@ nav{
     margin: 150px auto;
     border-radius: 20px;
     text-align: center;
-    font-size: larger;
+    font-size: 3em;
     padding: 30px 30px 50px 30px;
     border: 0.5em #202020 ridge;
     a{
