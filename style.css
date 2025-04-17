@@ -12,53 +12,50 @@ body{
     font-family: "PMD_font";
     background-color: #9CEACA;
 }
-.profile-header{
+.banner {
+    padding: 3em 0;
+    padding: calc((30vh - 5.8em) / 2 + 1px) 0;
+    text-align: center;
+    height: 92px;
+    width: 100%;
+    margin-bottom: 1em;
+    /* use this background when you have an image to display there */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('') center; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #d5d5d5 center;
+    background-size: cover;
+    h1{
+        background-color: transparent;
+        border: .2em solid #FFFFFF;
+        color: #FFFFFF;
+        width: fit-content;
+        padding: .5em 1em;
+        margin: 0 auto;
+        box-shadow: 4px 4px #333333;
+        text-shadow: 4px 4px #333333;
+    }
+}
+.profile{
+    margin: auto;
+    width: 50%;
+    display: grid;
+    align-content: center;
+    grid-template-columns:50% 50%;
     background-color: #202020;
-    word-wrap: break-word;
-    font-size: 2.5em;
-    padding: 0.5em;
-    width: 50%;
-    margin: auto;
-    display: flex;
-    border-width: 20%;
+}
+.pfp_img{
     img{
-        background-color: #d5d5d5;
-        width: auto;
-        height: 100%;
-        margin-top: auto;
-        margin-bottom: auto;
-        border-radius: 50%;
-        /* border-style: ridge; */
-        /* border-color: green; */
-    }
-    /* grid-template-columns: "text","profile-img","text"; */
-    flex-direction: row;
-}
-.words {
-    font-size: 400%;
-    text-align:left;
-    margin: auto;
-    width: 50%;
-    padding:25px;
-    margin-bottom:1px;
-    margin-top:1px;
-	border-radius: 10px;
-    background: #202020;
-    margin-top: 8px;
-    word-wrap: break-word;
-    overflow: auto;
-    transition-duration: 0.4s;
-    img {
-        display: block;
-        height: auto;
-        width: inherit;
-        image-rendering: pixelated;
+        width: 100%;
     }
 }
-nav{
-    font-size: 590%;
+@media (max-width:1080px) {
+    .profile{
+    width: 80%;
+    }
 }
-@media (max-width: 670px) {
+.text{
+    
+}
+@media (max-width: 1080px) {
     body{
         background-color: goldenrod;
     }
