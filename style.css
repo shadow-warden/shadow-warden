@@ -9,7 +9,8 @@
     margin: 0%;
 }
 body{
-    font-family: "PMD_font";
+    /* font-family: "PMD_font"; */
+    font-family: 'Gibson', sans-serif;
     background-color: #9CEACA;
 }
 .banner {
@@ -30,6 +31,8 @@ body{
         width: fit-content;
         padding: .5em 1em;
         margin: 0 auto;
+        font-family: 'Gibson', sans-serif;
+        font-weight: bold;
         box-shadow: 4px 4px #333333;
         text-shadow: 4px 4px #333333;
     }
@@ -53,22 +56,44 @@ body{
     }
 }
 .text{
-    
+    /* empty */
 }
 @media (max-width: 1080px) {
     body{
         background-color: goldenrod;
     }
 }
-.showcase{
+.showcase_title{
     text-align: center;
+    font-size: 25px;
+    display: block;
+}
+.showcase{
     font-size: larger;
-    padding: 5%;
-    margin-top: 50em;
+    margin: 1em auto;
     background-color: #202020;
-    min-height: 100px;
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    display: table;
+}
+.project{
+    padding: 1em;
+    width:30%;
+    text-align: center;
+    display: inline-table;
+    img{
+        width: 100%;
+    }
+    h1{
+        width: 100%;
+        margin: auto;
+    }
+    transition-duration: 500ms;
+}
+.project:hover{
+    background: #9CEACA;
+    h1{
+        color: #202020;
+    }
 }
 .redirect_page{
     background-color: #d5d5d5;
